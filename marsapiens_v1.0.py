@@ -33,7 +33,7 @@ def getinput():
     reso = str(resol.get())
 resol.set("224") # default value
 
-getinput = ttk.OptionMenu(root, resol, '112','112', '224', '448').place(x=50, y=430)
+getinput = ttk.OptionMenu(root, resol, '224','112', '224', '448').place(x=50, y=430)
 
 l_message_res = Label(root, text='Detections dimension (px)', fg='white', bg='#2d2c2c',font=(None, 9))
 l_message_res.place(x=47, y=405)
